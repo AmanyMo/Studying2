@@ -3,8 +3,8 @@ namespace SOLID
 {
     public class Order
     {
-        private string Name;
-        private double Price;
+        private static string Name ="Test";
+        private static double Price=15.5;
 
         public string GetName() => Name;
         public double GetTotalPrice() => Price;
