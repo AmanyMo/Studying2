@@ -5,5 +5,5 @@ using SOLID.Implemented_classes;
 Console.WriteLine("Hello, World!");
 //demonistrate SOLID principles
 var PaymentProcessor = new PaymentProcessor(new VisaPayment());
-PaymentProcessor.ProcessPayment(new Order());
+PaymentProcessor.ProcessPayment(new DeliveryOrder());
 

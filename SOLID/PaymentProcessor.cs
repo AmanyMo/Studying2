@@ -12,8 +12,8 @@ namespace SOLID
         }
         public void ProcessPayment(Order order)
         {
-            Console.WriteLine("Processing payment of order :: ", order.GetName());
-            Console.WriteLine("Issuing Payment for amount :: ", order.GetTotalPrice());
+            Console.WriteLine("Processing payment of order :: "+ order.GetName());
+            Console.WriteLine("Issuing Payment for amount :: "+ order.GetTotalPrice());
             _paymentService.ProcessPayment(order.GetTotalPrice());
 
             //if (string.Equals(payement.GetType(), "VISA", StringComparison.OrdinalIgnoreCase))

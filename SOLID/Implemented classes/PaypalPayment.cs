@@ -6,7 +6,7 @@ namespace SOLID.Implemented_classes
     {
         public void ProcessPayment(double amount)
         {
-            Console.WriteLine("Processing Paypal payment");
+            Console.WriteLine("Processing Paypal payment"+ amount);
         }
     }
 }
